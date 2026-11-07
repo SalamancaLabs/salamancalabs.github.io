@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="/assets/site.css">
   {%- if page.alternates %}
   {%- for alt in page.alternates %}
-  <link rel="alternate" hreflang="{{ alt[0] }}" href="{{ site.url }}{{ alt[1] }}">
+  <link rel="alternate" hreflang="{{ alt.code }}" href="{{ site.url }}{{ alt.url }}">
   {%- endfor %}
   {%- endif %}
 </head>
@@ -26,7 +26,7 @@
       {%- if page.alternates %}
       <nav class="lang" aria-label="{{ page.lang_label | default: 'Language' }}">
         {%- for alt in page.alternates %}
-        <a href="{{ alt[1] }}" hreflang="{{ alt[0] }}" lang="{{ alt[0] }}"{% if alt[0] == page.lang %} aria-current="page"{% endif %}>{{ alt[0] | upcase }}</a>
+        <a href="{{ alt.url }}" hreflang="{{ alt.code }}" lang="{{ alt.code }}"{% if alt.code == page.lang %} aria-current="page"{% endif %}>{{ alt.label }}</a>
         {%- endfor %}
       </nav>
       {%- endif %}

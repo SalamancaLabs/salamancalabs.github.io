@@ -3,12 +3,6 @@ layout: policy
 lang: es
 title: Política de privacidad · DailyDojo
 permalink: /dailydojo/es/privacy/
-alternates:
-  en: /dailydojo/privacy/
-  es: /dailydojo/es/privacy/
-  fr: /dailydojo/fr/privacy/
-brand: DailyDojo
-effective_iso: 2026-11-07
 lang_label: Idioma
 eyebrow: Política de privacidad
 heading: Tus hábitos son tuyos.

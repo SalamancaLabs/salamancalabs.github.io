@@ -6,3 +6,15 @@ markdown: kramdown
 kramdown:
   auto_ids: false
 exclude: [README.md]
+defaults:
+  - scope: { path: dailydojo }
+    values:
+      brand: DailyDojo
+      effective_iso: 2026-11-07
+      alternates:
+        - { code: en,    label: EN, url: /dailydojo/privacy/ }
+        - { code: es,    label: ES, url: /dailydojo/es/privacy/ }
+        - { code: fr,    label: FR, url: /dailydojo/fr/privacy/ }
+        - { code: de,    label: DE, url: /dailydojo/de/privacy/ }
+        - { code: pt-BR, label: PT, url: /dailydojo/pt-br/privacy/ }
+        - { code: it,    label: IT, url: /dailydojo/it/privacy/ }
