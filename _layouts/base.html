@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="{{ page.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }}</title>
+  <meta name="description" content="{{ page.lead | default: site.description | strip_html | escape }}">
+  <meta name="theme-color" content="#FCF8F6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#151211" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="/assets/icon.svg" type="image/svg+xml">
+  <link rel="preload" href="/assets/fonts/Manrope-ExtraBold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/assets/site.css">
+  {%- if page.alternates %}
+  {%- for alt in page.alternates %}
+  <link rel="alternate" hreflang="{{ alt[0] }}" href="{{ site.url }}{{ alt[1] }}">
+  {%- endfor %}
+  {%- endif %}
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="/">
+        {%- if page.brand %}<img src="/assets/icon.svg" alt="" width="40" height="40">{% endif %}
+        <span>{{ page.brand | default: 'Salamanca Labs' }}</span>
+      </a>
+      {%- if page.alternates %}
+      <nav class="lang" aria-label="{{ page.lang_label | default: 'Language' }}">
+        {%- for alt in page.alternates %}
+        <a href="{{ alt[1] }}" hreflang="{{ alt[0] }}" lang="{{ alt[0] }}"{% if alt[0] == page.lang %} aria-current="page"{% endif %}>{{ alt[0] | upcase }}</a>
+        {%- endfor %}
+      </nav>
+      {%- endif %}
+    </div>
+  </header>
+  <main class="wrap">
+    {{ content }}
+  </main>
+  <footer class="foot">
+    <div class="wrap">
+      <span>© {{ site.time | date: '%Y' }} Salamanca Labs</span>
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    </div>
+  </footer>
+</body>
+</html>

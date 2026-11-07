@@ -1,3 +1,8 @@
 title: Salamanca Labs
 description: Small, private apps.
-theme: minima
+url: https://salamancalabs.github.io
+email: ceihe_15@hotmail.com
+markdown: kramdown
+kramdown:
+  auto_ids: false
+exclude: [README.md]

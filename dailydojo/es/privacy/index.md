@@ -1,24 +1,38 @@
 ---
-layout: page
-title: Política de privacidad de DailyDojo
+layout: policy
+lang: es
+title: Política de privacidad · DailyDojo
 permalink: /dailydojo/es/privacy/
+alternates:
+  en: /dailydojo/privacy/
+  es: /dailydojo/es/privacy/
+  fr: /dailydojo/fr/privacy/
+brand: DailyDojo
+effective_iso: 2026-11-07
+lang_label: Idioma
+eyebrow: Política de privacidad
+heading: Tus hábitos son tuyos.
+lead: DailyDojo es una app de seguimiento de hábitos de Salamanca Labs. Esta página explica qué ocurre con tus datos cuando la usas.
+effective_label: "Fecha de entrada en vigor:"
+effective: 7 de noviembre de 2026
+promise_title: Todo se queda en tu móvil
+promise_text: DailyDojo no recoge, envía ni vende ningún dato personal. No hay nada que podamos ver.
+points:
+  - icon: user-x
+    title: Sin cuenta
+    text: Abre la app y empieza. Sin registro ni email.
+  - icon: eye-off
+    title: Sin seguimiento ni anuncios
+    text: Sin analíticas, sin publicidad, nada que te siga.
+  - icon: wifi-off
+    title: Sin acceso a internet
+    text: La app no tiene permiso para usar la red.
+contact_text: ¿Preguntas sobre tu privacidad?
 ---
-
-[English](/dailydojo/privacy/) · [Español](/dailydojo/es/privacy/) · [Français](/dailydojo/fr/privacy/)
-
-**Fecha de entrada en vigor:** 7 de noviembre de 2026
-
-DailyDojo es una app de seguimiento de hábitos creada por Salamanca Labs ("nosotros"). Esta política explica qué ocurre con tus datos cuando usas la app.
-
-## Resumen
-
-DailyDojo no recoge, transmite ni vende ningún dato personal. Tus hábitos se quedan en tu dispositivo.
 
 ## Qué guarda la app
 
 La app guarda tus hábitos, los días completados, los recordatorios y los ajustes **solo en tu dispositivo**. No tenemos servidores y la app no tiene permiso para acceder a internet.
-
-La app no tiene cuentas, analíticas, publicidad ni seguimiento.
 
 ## Copias de seguridad
 
@@ -45,7 +59,3 @@ Desinstala la app o borra su almacenamiento en los ajustes de Android. Así se b
 ## Cambios
 
 Si esta política cambia, actualizaremos esta página y su fecha de entrada en vigor.
-
-## Contacto
-
-ceihe_15@hotmail.com

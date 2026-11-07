@@ -1,0 +1,36 @@
+---
+layout: base
+---
+<section class="hero">
+  <span class="eyebrow">{{ page.eyebrow }}</span>
+  <h1>{{ page.heading }}</h1>
+  <p class="lead">{{ page.lead }}</p>
+  <p class="meta">{{ page.effective_label }} <time datetime="{{ page.effective_iso }}">{{ page.effective }}</time></p>
+
+  <div class="promise">
+    <div class="cells" aria-hidden="true">
+      <i class="on"></i><i class="on"></i><i class="mid"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i>
+      <i class="on"></i><i class="mid"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i>
+    </div>
+    <h2>{{ page.promise_title }}</h2>
+    <p>{{ page.promise_text }}</p>
+    <ul class="points">
+      {%- for pt in page.points %}
+      <li>
+        <span class="ic" aria-hidden="true">{% include icon-{{ pt.icon }}.svg %}</span>
+        <strong>{{ pt.title }}</strong>
+        <span>{{ pt.text }}</span>
+      </li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
+
+<article class="doc">
+  {{ content }}
+</article>
+
+<aside class="contact">
+  <p>{{ page.contact_text }}</p>
+  <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+</aside>

@@ -1,24 +1,38 @@
 ---
-layout: page
-title: DailyDojo privacy policy
+layout: policy
+lang: en
+title: Privacy policy · DailyDojo
 permalink: /dailydojo/privacy/
+alternates:
+  en: /dailydojo/privacy/
+  es: /dailydojo/es/privacy/
+  fr: /dailydojo/fr/privacy/
+brand: DailyDojo
+effective_iso: 2026-11-07
+lang_label: Language
+eyebrow: Privacy policy
+heading: Your habits are yours.
+lead: DailyDojo is a habit tracker by Salamanca Labs. This page explains what happens to your data when you use it.
+effective_label: "Effective date:"
+effective: 7 November 2026
+promise_title: Everything stays on your phone
+promise_text: DailyDojo does not collect, send or sell any personal data. There's nothing for us to see.
+points:
+  - icon: user-x
+    title: No account
+    text: Open the app and start. No sign-up, no email.
+  - icon: eye-off
+    title: No tracking or ads
+    text: No analytics, no advertising, nothing that follows you.
+  - icon: wifi-off
+    title: No internet access
+    text: The app has no permission to use the network.
+contact_text: Questions about your privacy?
 ---
-
-[English](/dailydojo/privacy/) · [Español](/dailydojo/es/privacy/) · [Français](/dailydojo/fr/privacy/)
-
-**Effective date:** 7 November 2026
-
-DailyDojo is a habit tracker made by Salamanca Labs ("we"). This policy explains what happens to your data when you use the app.
-
-## Short version
-
-DailyDojo does not collect, transmit or sell any personal data. Your habits stay on your device.
 
 ## What the app stores
 
 The app stores your habits, completed days, reminders and settings **only on your device**. We have no servers, and the app has no permission to access the internet.
-
-The app has no accounts, analytics, advertising or tracking.
 
 ## Backups
 
@@ -45,7 +59,3 @@ Uninstall the app or clear its storage in Android settings. This deletes all dat
 ## Changes
 
 If this policy changes, we will update this page and its effective date.
-
-## Contact
-
-ceihe_15@hotmail.com
