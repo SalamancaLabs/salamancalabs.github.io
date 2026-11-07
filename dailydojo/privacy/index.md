@@ -8,25 +8,45 @@ eyebrow: Privacy policy
 heading: Your habits are yours.
 lead: DailyDojo is a habit tracker by Salamanca Labs. This page explains what happens to your data when you use it.
 effective_label: "Effective date:"
-effective: 7 November 2026
-promise_title: Everything stays on your phone
-promise_text: DailyDojo does not collect, send or sell any personal data. There's nothing for us to see.
+effective: 8 November 2026
+promise_title: "Your habits stay on your phone"
+promise_text: "Your habits, check-ins and reminders never leave your device. The app only sends anonymous usage counts, which you can turn off. We don't sell data and show no ads."
 points:
   - icon: user-x
-    title: No account
-    text: Open the app and start. No sign-up, no email.
+    title: "No account"
+    text: "Open the app and start. No sign-up, no email."
   - icon: eye-off
-    title: No tracking or ads
-    text: No analytics, no advertising, nothing that follows you.
-  - icon: wifi-off
-    title: No internet access
-    text: The app has no permission to use the network.
+    title: "No ads, no selling"
+    text: "No advertising, no advertising ID, and your data is never sold."
+  - icon: chart
+    title: "Anonymous usage data"
+    text: "Counts of which features get used. Turn it off in Settings."
 contact_text: Questions about your privacy?
 ---
 
 ## What the app stores
 
-The app stores your habits, completed days, reminders and settings **only on your device**. We have no servers, and the app has no permission to access the internet.
+The app stores your habits, completed days, reminders and settings **only on your device**. The only thing the app sends is the anonymous usage data described below.
+
+## Anonymous usage data
+
+To learn which features help and where the app falls short, DailyDojo sends a few anonymous usage events. You can turn this off at any time in **Settings → Privacy → Share anonymous usage data**. When it's off, the app sends nothing and deletes any events it hasn't sent yet.
+
+**What is sent.** Only these events:
+
+- **App opened** (at most once a day), with how long ago the app was installed, in ranges (0, 1, 2–7, 8–30 or more than 30 days), and how many active habits you have.
+- **Habit created**, with how many active habits you have.
+- **Day marked done** (at most once a day), with where you marked it: one of the home layouts, the habit page or a reminder.
+- **Pro page opened** and **free-plan limit reached**, with which one.
+- **Home layout changed**, **reminder set**, **export used** and **import used**.
+
+Each event also includes the app version, the operating system and its version, the device language, and a random session code that changes after an hour without use.
+
+**What is never sent.** Habit names or descriptions, the days you marked, reminder times, or anything else you type. No account, no advertising ID and no device ID.
+
+**Who processes it.** [Aptabase](https://aptabase.com/legal/privacy) processes the events for us, on servers in the European Union. When an event arrives, Aptabase uses your IP address and your device's user agent in memory to work out your country and region and a daily code that changes every day and can't be traced back to you. It never stores your IP address or user agent.
+
+**How long it's kept.** Aptabase keeps events for up to five years. Because the events can't be linked to you, we can't find or delete the events of one person. Turning the setting off stops all new events.
 
 ## Backups
 
@@ -35,6 +55,7 @@ The app stores your habits, completed days, reminders and settings **only on you
 
 ## Permissions
 
+- **Internet:** only to send the anonymous usage data above.
 - **Notifications:** to show the reminders you set.
 - **Run at startup:** to schedule your reminders again after the device restarts.
 

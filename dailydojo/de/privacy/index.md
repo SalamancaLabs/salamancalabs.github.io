@@ -8,25 +8,45 @@ eyebrow: Datenschutzerklärung
 heading: Deine Gewohnheiten gehören dir.
 lead: DailyDojo ist ein Gewohnheitstracker von Salamanca Labs. Diese Seite erklärt, was mit deinen Daten passiert, wenn du die App nutzt.
 effective_label: "Gültig ab:"
-effective: 7. November 2026
-promise_title: Alles bleibt auf deinem Telefon
-promise_text: DailyDojo erhebt, sendet und verkauft keine personenbezogenen Daten. Wir können nichts davon sehen.
+effective: 8. November 2026
+promise_title: "Deine Gewohnheiten bleiben auf deinem Telefon"
+promise_text: "Deine Gewohnheiten, abgehakten Tage und Erinnerungen verlassen nie dein Gerät. Die App sendet nur anonyme Nutzungszahlen, die du abschalten kannst. Wir verkaufen keine Daten und zeigen keine Werbung."
 points:
   - icon: user-x
-    title: Kein Konto
-    text: App öffnen und loslegen. Ohne Registrierung, ohne E-Mail.
+    title: "Kein Konto"
+    text: "App öffnen und loslegen. Keine Registrierung, keine E-Mail."
   - icon: eye-off
-    title: Kein Tracking, keine Werbung
-    text: Keine Analysen, keine Werbung, nichts, was dir folgt.
-  - icon: wifi-off
-    title: Kein Internetzugriff
-    text: Die App hat keine Berechtigung, das Netzwerk zu nutzen.
+    title: "Keine Werbung, kein Verkauf"
+    text: "Keine Werbung, keine Werbe-ID, und deine Daten werden nie verkauft."
+  - icon: chart
+    title: "Anonyme Nutzungsdaten"
+    text: "Zahlen dazu, welche Funktionen genutzt werden. In den Einstellungen abschaltbar."
 contact_text: Fragen zu deinem Datenschutz?
 ---
 
 ## Was die App speichert
 
-Die App speichert deine Gewohnheiten, erledigten Tage, Erinnerungen und Einstellungen **nur auf deinem Gerät**. Wir haben keine Server, und die App hat keine Berechtigung, auf das Internet zuzugreifen.
+Die App speichert deine Gewohnheiten, erledigten Tage, Erinnerungen und Einstellungen **nur auf deinem Gerät**. Das Einzige, was die App sendet, sind die unten beschriebenen anonymen Nutzungsdaten.
+
+## Anonyme Nutzungsdaten
+
+Um zu erfahren, welche Funktionen helfen und wo die App noch hakt, sendet DailyDojo einige anonyme Nutzungsereignisse. Du kannst das jederzeit unter **Einstellungen → Datenschutz → Anonyme Nutzungsdaten teilen** abschalten. Dann sendet die App nichts mehr und löscht Ereignisse, die sie noch nicht gesendet hat.
+
+**Was gesendet wird.** Nur diese Ereignisse:
+
+- **App geöffnet** (höchstens einmal am Tag), mit der Zeit seit der Installation in Stufen (0, 1, 2–7, 8–30 oder mehr als 30 Tage) und der Zahl deiner aktiven Gewohnheiten.
+- **Gewohnheit erstellt**, mit der Zahl deiner aktiven Gewohnheiten.
+- **Tag abgehakt** (höchstens einmal am Tag), mit dem Ort, an dem du ihn abgehakt hast: eine der Startansichten, die Seite der Gewohnheit oder eine Erinnerung.
+- **Pro-Seite geöffnet** und **Limit des kostenlosen Plans erreicht**, jeweils mit welchem.
+- **Startansicht gewechselt**, **Erinnerung eingerichtet**, **Export genutzt** und **Import genutzt**.
+
+Jedes Ereignis enthält außerdem die App-Version, das Betriebssystem und seine Version, die Gerätesprache und einen zufälligen Sitzungscode, der sich nach einer Stunde ohne Nutzung ändert.
+
+**Was nie gesendet wird.** Namen oder Beschreibungen von Gewohnheiten, die abgehakten Tage, Erinnerungszeiten oder sonst etwas, das du eingibst. Kein Konto, keine Werbe-ID und keine Geräte-ID.
+
+**Wer die Daten verarbeitet.** [Aptabase](https://aptabase.com/legal/privacy) verarbeitet die Ereignisse in unserem Auftrag, auf Servern in der Europäischen Union. Wenn ein Ereignis ankommt, nutzt Aptabase deine IP-Adresse und den User-Agent deines Geräts nur im Arbeitsspeicher, um Land und Region sowie einen täglich wechselnden Code zu bestimmen, der keinen Rückschluss auf dich zulässt. Deine IP-Adresse und dein User-Agent werden nie gespeichert.
+
+**Wie lange die Daten gespeichert werden.** Aptabase speichert Ereignisse bis zu fünf Jahre. Da sie sich dir nicht zuordnen lassen, können wir die Ereignisse einer einzelnen Person weder finden noch löschen. Wenn du die Einstellung abschaltest, werden keine neuen Ereignisse mehr gesendet.
 
 ## Backups
 
@@ -35,6 +55,7 @@ Die App speichert deine Gewohnheiten, erledigten Tage, Erinnerungen und Einstell
 
 ## Berechtigungen
 
+- **Internet:** nur, um die oben beschriebenen anonymen Nutzungsdaten zu senden.
 - **Benachrichtigungen:** um die Erinnerungen anzuzeigen, die du einstellst.
 - **Beim Start ausführen:** um deine Erinnerungen nach einem Neustart des Geräts erneut zu planen.
 
