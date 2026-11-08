@@ -10,7 +10,7 @@ lead: DailyDojo is a habit tracker by Salamanca Labs. This page explains what ha
 effective_label: "Effective date:"
 effective: 8 November 2026
 promise_title: "Your habits stay on your phone"
-promise_text: "Your habits, check-ins and reminders never leave your device. The app only sends anonymous usage counts, which you can turn off. We don't sell data and show no ads."
+promise_text: "Your habits, check-ins and reminders never leave your device. The app sends anonymous usage counts only if you agree. We don't sell data and show no ads."
 points:
   - icon: user-x
     title: "No account"
@@ -20,7 +20,7 @@ points:
     text: "No advertising, no advertising ID, and your data is never sold."
   - icon: chart
     title: "Anonymous usage data"
-    text: "Counts of which features get used. Turn it off in Settings."
+    text: "Counts of which features get used, only if you agree. Change it anytime in Settings."
 contact_text: Questions about your privacy?
 ---
 
@@ -30,7 +30,7 @@ The app stores your habits, completed days, reminders and settings **only on you
 
 ## Anonymous usage data
 
-To learn which features help and where the app falls short, DailyDojo sends a few anonymous usage events. You can turn this off at any time in **Settings → Privacy → Share anonymous usage data**. When it's off, the app sends nothing and deletes any events it hasn't sent yet.
+To learn which features help and where the app falls short, DailyDojo can send a few anonymous usage events. It sends nothing until you agree: after you create your first habit, the app asks once, and only **Share** turns it on. We rely on your consent, which you can withdraw at any time in **Settings → Privacy → Share anonymous usage data**. When it's off, the app sends nothing and deletes any events it hasn't sent yet.
 
 **What is sent.** Only these events:
 

@@ -10,7 +10,7 @@ lead: DailyDojo est une application de suivi d'habitudes de Salamanca Labs. Cett
 effective_label: "Date d'entrée en vigueur :"
 effective: 8 novembre 2026
 promise_title: "Vos habitudes restent sur votre téléphone"
-promise_text: "Vos habitudes, les jours cochés et vos rappels ne quittent jamais votre appareil. L'application envoie seulement des statistiques d'utilisation anonymes, que vous pouvez désactiver. Nous ne vendons aucune donnée et n'affichons aucune publicité."
+promise_text: "Vos habitudes, les jours cochés et vos rappels ne quittent jamais votre appareil. L'application envoie des statistiques d'utilisation anonymes seulement si vous l'acceptez. Nous ne vendons aucune donnée et n'affichons aucune publicité."
 points:
   - icon: user-x
     title: "Sans compte"
@@ -20,7 +20,7 @@ points:
     text: "Aucune publicité, aucun identifiant publicitaire, et vos données ne sont jamais vendues."
   - icon: chart
     title: "Données d'utilisation anonymes"
-    text: "Le nombre de fois où chaque fonction est utilisée. Désactivable dans les Réglages."
+    text: "Le nombre de fois où chaque fonction est utilisée, seulement si vous l'acceptez. Modifiable à tout moment dans les Réglages."
 contact_text: Une question sur votre vie privée ?
 ---
 
@@ -30,7 +30,7 @@ L'application enregistre vos habitudes, les jours accomplis, les rappels et les 
 
 ## Données d'utilisation anonymes
 
-Pour savoir quelles fonctions sont utiles et où l'application doit progresser, DailyDojo envoie quelques événements d'utilisation anonymes. Vous pouvez le désactiver à tout moment dans **Réglages → Confidentialité → Partager des données d'utilisation anonymes**. Une fois désactivé, l'application n'envoie plus rien et supprime les événements qu'elle n'a pas encore envoyés.
+Pour savoir quelles fonctions sont utiles et où l'application doit progresser, DailyDojo peut envoyer quelques événements d'utilisation anonymes. Rien n'est envoyé avant votre accord : après la création de votre première habitude, l'application vous le demande une fois, et seul **Partager** l'active. Nous nous appuyons sur votre consentement, que vous pouvez retirer à tout moment dans **Réglages → Confidentialité → Partager des données d'utilisation anonymes**. Une fois désactivé, l'application n'envoie plus rien et supprime les événements qu'elle n'a pas encore envoyés.
 
 **Ce qui est envoyé.** Uniquement ces événements :
 

@@ -10,7 +10,7 @@ lead: O DailyDojo é um app de acompanhamento de hábitos da Salamanca Labs. Est
 effective_label: "Data de vigência:"
 effective: 8 de novembro de 2026
 promise_title: "Seus hábitos ficam no seu celular"
-promise_text: "Seus hábitos, os dias marcados e os lembretes nunca saem do seu dispositivo. O app só envia contagens de uso anônimas, que você pode desativar. Não vendemos dados nem mostramos anúncios."
+promise_text: "Seus hábitos, os dias marcados e os lembretes nunca saem do seu dispositivo. O app só envia contagens de uso anônimas se você concordar. Não vendemos dados nem mostramos anúncios."
 points:
   - icon: user-x
     title: "Sem conta"
@@ -20,7 +20,7 @@ points:
     text: "Sem publicidade, sem ID de publicidade, e seus dados nunca são vendidos."
   - icon: chart
     title: "Dados de uso anônimos"
-    text: "Contagens de quais recursos são usados. Desative em Configurações."
+    text: "Contagens de quais recursos são usados, só se você concordar. Mude quando quiser em Configurações."
 contact_text: Dúvidas sobre sua privacidade?
 ---
 
@@ -30,7 +30,7 @@ O app armazena seus hábitos, os dias concluídos, os lembretes e as configuraç
 
 ## Dados de uso anônimos
 
-Para saber quais recursos ajudam e onde o app deixa a desejar, o DailyDojo envia alguns eventos de uso anônimos. Você pode desativar isso a qualquer momento em **Configurações → Privacidade → Compartilhar dados de uso anônimos**. Desativado, o app não envia nada e apaga os eventos que ainda não enviou.
+Para saber quais recursos ajudam e onde o app deixa a desejar, o DailyDojo pode enviar alguns eventos de uso anônimos. Ele não envia nada até você concordar: depois que você cria seu primeiro hábito, o app pergunta uma vez, e só **Compartilhar** ativa o envio. A base é o seu consentimento, que você pode retirar a qualquer momento em **Configurações → Privacidade → Compartilhar dados de uso anônimos**. Desativado, o app não envia nada e apaga os eventos que ainda não enviou.
 
 **O que é enviado.** Apenas estes eventos:
 

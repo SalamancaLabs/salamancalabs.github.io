@@ -10,7 +10,7 @@ lead: DailyDojo ist ein Gewohnheitstracker von Salamanca Labs. Diese Seite erkl�
 effective_label: "Gültig ab:"
 effective: 8. November 2026
 promise_title: "Deine Gewohnheiten bleiben auf deinem Telefon"
-promise_text: "Deine Gewohnheiten, abgehakten Tage und Erinnerungen verlassen nie dein Gerät. Die App sendet nur anonyme Nutzungszahlen, die du abschalten kannst. Wir verkaufen keine Daten und zeigen keine Werbung."
+promise_text: "Deine Gewohnheiten, abgehakten Tage und Erinnerungen verlassen nie dein Gerät. Anonyme Nutzungszahlen sendet die App nur, wenn du zustimmst. Wir verkaufen keine Daten und zeigen keine Werbung."
 points:
   - icon: user-x
     title: "Kein Konto"
@@ -20,7 +20,7 @@ points:
     text: "Keine Werbung, keine Werbe-ID, und deine Daten werden nie verkauft."
   - icon: chart
     title: "Anonyme Nutzungsdaten"
-    text: "Zahlen dazu, welche Funktionen genutzt werden. In den Einstellungen abschaltbar."
+    text: "Zahlen dazu, welche Funktionen genutzt werden, nur mit deiner Zustimmung. Jederzeit in den Einstellungen änderbar."
 contact_text: Fragen zu deinem Datenschutz?
 ---
 
@@ -30,7 +30,7 @@ Die App speichert deine Gewohnheiten, erledigten Tage, Erinnerungen und Einstell
 
 ## Anonyme Nutzungsdaten
 
-Um zu erfahren, welche Funktionen helfen und wo die App noch hakt, sendet DailyDojo einige anonyme Nutzungsereignisse. Du kannst das jederzeit unter **Einstellungen → Datenschutz → Anonyme Nutzungsdaten teilen** abschalten. Dann sendet die App nichts mehr und löscht Ereignisse, die sie noch nicht gesendet hat.
+Um zu erfahren, welche Funktionen helfen und wo die App noch hakt, kann DailyDojo einige anonyme Nutzungsereignisse senden. Die App sendet nichts, bevor du zustimmst: Nachdem du deine erste Gewohnheit angelegt hast, fragt sie einmal, und nur **Teilen** schaltet es ein. Grundlage ist deine Einwilligung, die du jederzeit unter **Einstellungen → Datenschutz → Anonyme Nutzungsdaten teilen** widerrufen kannst. Dann sendet die App nichts mehr und löscht Ereignisse, die sie noch nicht gesendet hat.
 
 **Was gesendet wird.** Nur diese Ereignisse:
 

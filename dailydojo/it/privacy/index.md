@@ -10,7 +10,7 @@ lead: DailyDojo è un'app per monitorare le abitudini di Salamanca Labs. Questa 
 effective_label: "In vigore dal:"
 effective: 8 novembre 2026
 promise_title: "Le tue abitudini restano sul tuo telefono"
-promise_text: "Le tue abitudini, i giorni segnati e i promemoria non lasciano mai il tuo dispositivo. L'app invia solo conteggi d'uso anonimi, che puoi disattivare. Non vendiamo dati e non mostriamo pubblicità."
+promise_text: "Le tue abitudini, i giorni segnati e i promemoria non lasciano mai il tuo dispositivo. L'app invia conteggi d'uso anonimi solo se acconsenti. Non vendiamo dati e non mostriamo pubblicità."
 points:
   - icon: user-x
     title: "Nessun account"
@@ -20,7 +20,7 @@ points:
     text: "Nessuna pubblicità, nessun ID pubblicitario, e i tuoi dati non vengono mai venduti."
   - icon: chart
     title: "Dati d'uso anonimi"
-    text: "Conteggi di quali funzioni vengono usate. Disattivabili nelle Impostazioni."
+    text: "Conteggi di quali funzioni vengono usate, solo se acconsenti. Modificabile in qualsiasi momento nelle Impostazioni."
 contact_text: Domande sulla tua privacy?
 ---
 
@@ -30,7 +30,7 @@ L'app salva le tue abitudini, i giorni completati, i promemoria e le impostazion
 
 ## Dati d'uso anonimi
 
-Per capire quali funzioni sono utili e dove l'app può migliorare, DailyDojo invia alcuni eventi d'uso anonimi. Puoi disattivarli in qualsiasi momento in **Impostazioni → Privacy → Condividi dati di utilizzo anonimi**. Quando l'opzione è disattivata, l'app non invia nulla e cancella gli eventi non ancora inviati.
+Per capire quali funzioni sono utili e dove l'app può migliorare, DailyDojo può inviare alcuni eventi d'uso anonimi. Non invia nulla finché non acconsenti: dopo che hai creato la tua prima abitudine, l'app te lo chiede una volta, e solo **Condividi** lo attiva. La base è il tuo consenso, che puoi revocare in qualsiasi momento in **Impostazioni → Privacy → Condividi dati di utilizzo anonimi**. Quando l'opzione è disattivata, l'app non invia nulla e cancella gli eventi non ancora inviati.
 
 **Cosa viene inviato.** Solo questi eventi:
 
